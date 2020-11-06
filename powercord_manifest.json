@@ -1,0 +1,9 @@
+{
+    "name": "Gamesense Theme",
+    "description": "Just a simple gamesense.pub theme :)",
+    "version": "0.3",
+    "author": "oni#4000",
+    "theme": "style.css",
+    "consent": "false",
+    "license": "MIT"
+}
