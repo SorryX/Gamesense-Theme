@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
-
-:root {
+@import url('https://codedotspectra.github.io/themes/mini-themes/settingsIcons.css');
+:root {  
     --background-primary: #151514;
     --background-secondary: #111111;
     --background-tertiary: #0c0c0c;
@@ -9,8 +9,8 @@
     --scrollbar-thin-thumb: #95b906;
     --channeltextarea-background: #0C0C0C;
     --background-floating: #151514;
+  --deprecated-quickswitcher-input-background: #151514;
 }
-
 
 .auto-Ge5KZx {
     background-color: #151514;
@@ -37,12 +37,18 @@ you hover it shows -> remove comments */
 /* Compact Status Menu */
 
 
+.userPopout-3XzG_A, .inner-1ilYF7, .root-1gCeng {
+	  border-radius:0px;
+     box-shadow: 0 0 0 1px #3c3c3c, 0 0 0 3px #282828, 0 0 0 4px #3c3c3c, 0 0 0 5px #0a0a0a !important;
+  
+
+}
 
 
 .cozy-3raOZG .messageContent-2qWWxC {}
 
 .lookFilled-1Gx00P.colorBrand-3pXr91 {
-    background-color: #6CC312;
+    background-color: rgb(149 185 6 / 0.8);
 }
 
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
@@ -68,7 +74,7 @@ you hover it shows -> remove comments */
 
 
 .wordmark-2iDDfm::before {
-    content: 'game';
+    content: 'noe';
     font-size: 14px;
     z-index: 1000;
     position: fixed;
@@ -91,13 +97,13 @@ you hover it shows -> remove comments */
     color: #95b906;
     height: auto;
     top: 11px;
-    left: 47px;
+    left: 34.5px;
     background-color: transparent;
 }
 
 .markup-2BOw-j {
-    font-family: Verdana, Helvetica, Arial, sans-serif !important;
-    font-size: 9pt;
+    font-family: 'Verdana',Helvetica,Arial,sans-serif;
+    font-size: 13px!important;
     color: #CECECC;
 }
 
@@ -160,17 +166,17 @@ you hover it shows -> remove comments */
 }
 
 .titleBar-AC4pGV>*:nth-child(2) {
-    background-color: #0C0C0C;
+    background-color: transparent;
     transition: background-color 1s ease-out;
 }
 
 .titleBar-AC4pGV>*:nth-child(3) {
-    background-color: #0C0C0C;
+    background-color: transparent;
     transition: background-color 1s ease-out;
 }
 
 .titleBar-AC4pGV>*:nth-child(4) {
-    background-color: #0C0C0C;
+    background-color: transparent;
     transition: background-color 1s ease-out;
 }
 
@@ -204,7 +210,7 @@ you hover it shows -> remove comments */
     box-shadow: inset 0 1px 0 rgba(47,49,54,.6);
 }
 
-.theme-dark .root-1gCeng {
+.theme-dark  .root-1gCeng {
     background-color: #151514;
     -webkit-box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
     box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
@@ -281,4 +287,34 @@ you hover it shows -> remove comments */
 .statusItem-33LqPf > .customText-tY5LJn,
 .statusItem-33LqPf > .clearStatusIcon-3-MDNF {
     display: none;
+}
+
+.input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus, .lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b, .lookFilled-1h1y05.selectOpen-hQuR6b, .lookFilled-1h1y05.select-1Pkeg4:focus {
+    border-color: #95B906;
+  
+    
+}
+
+.scrollableContainer-2NUZem {
+    border-radius: 0px;
+   box-shadow: 0 0 0 1px rgba(32,34,37,.6), 0 2px 10px 0 rgba(0,0,0,.2);
+  transition: box-shadow .3s
+}
+
+.scrollableContainer-2NUZem:focus-within {
+   box-shadow: 0 0 0 1px #95B906, 0 2px 10px 0 rgba(0,0,0,.2);
+   transition: box-shadow .3s;
+}
+
+.root-SR8cQa {
+  border-radius: 1px;
+}
+
+.theme-dark .headerNormal-T_seeN {
+    background-color: #111111;
+}
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: #151514;
+    color: hsla(0,0%,100%,.8);
 }
